@@ -27,12 +27,12 @@ The library consists of the following key components:
 1. Clone the repository.
 
    ```bash
-   git clone [repository_url]
+   git clone git@github.com:MSO03/matrix-operations.git
    ```
 
 2. Open the project in your preferred Java development environment.
 
-3. Run the `MatrixMain` class to interact with the library through a command-line interface.
+3. Run the `main` class to interact with the library through a command-line interface.
 
 4. Utilize the MatrixLib classes based on your requirements.
 
