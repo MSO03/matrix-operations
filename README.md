@@ -6,15 +6,15 @@ This project a Java library for matrix operations, supporting parallel and seque
 
 The library consists of the following key components:
 
-- **Matrix**: An abstract class providing a foundation for both sequential and parallel matrix implementations. It includes common matrix operations as abstract methods.
+- **matrix**: An abstract class providing a foundation for both sequential and parallel matrix implementations. It includes common matrix operations as abstract methods.
 
-- **MatrixFactory**: A factory class for creating instances of the matrix. It includes methods for creating sequential or parallel matrices with specific dimensions or from a given 2D array.
+- **matrixFactory**: A factory class for creating instances of the matrix. It includes methods for creating sequential or parallel matrices with specific dimensions or from a given 2D array.
 
-- **SequentialMatrix**: A concrete implementation of the matrix with sequential computation for basic operations.
+- **sequentialMatrix**: A concrete implementation of the matrix with sequential computation for basic operations.
 
-- **ParallelMatrix**: A concrete implementation of the matrix with parallel computation for enhanced performance.
+- **parallelMatrix**: A concrete implementation of the matrix with parallel computation for enhanced performance.
 
-- **MatrixMain**: The main class providing a command-line interface for users to interact with the MatrixLib functionalities. It prompts users to input matrix dimensions, select matrix operations (addition, subtraction, multiplication, or Hadamard product), and displays the result.
+- **main**: The main class provides a command-line interface for users to interact with the matrixLib functionalities. It prompts users to input matrix dimensions, select matrix operations (addition, subtraction, multiplication, or Hadamard product), and displays the result.
 
 ## Getting Started
 
