@@ -119,13 +119,9 @@ public class SequentialMatrix extends Matrix {
       
     }
 
-
-
 return result;
     
   }
-
-   
 
 }
 

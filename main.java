@@ -10,7 +10,6 @@ public static Matrix dim1(){
 
 Scanner in  = new Scanner(System.in);
 
-
 System.out.print("Rows of Matrix A: ");
  int row1 = in.nextInt();
 System.out.print("Columns of Matrix A: ");
@@ -18,19 +17,12 @@ System.out.print("Columns of Matrix A: ");
 
   Matrix A = MatrixFactory.getSequentialMatrix(row1,col1);
 
-  return A;
-
-
-    
+  return A;    
   
 }
 
 public static Matrix dim2(){
-
-
 Scanner in  = new Scanner(System.in);
-
-
 System.out.print("Rows of Matrix B: ");
  int row2 = in.nextInt();
 System.out.print("Columns of Matrix B: ");
@@ -39,7 +31,6 @@ System.out.print("Columns of Matrix B: ");
   Matrix B = MatrixFactory.getSequentialMatrix(row2,col2);
 
   return B;
-
  
 }
 
@@ -61,12 +52,9 @@ if(Matrix.equalDim(A, B)==false){
     System.out.println(B.toString());
     
   }
-
-
 }
 
   public static void cloneCall(Matrix A,Matrix B){
-
     Scanner in = new Scanner(System.in);
             System.out.print("Choose the Matrix that you want to clone: ");
         int cl = in.nextInt();
@@ -81,11 +69,7 @@ if(Matrix.equalDim(A, B)==false){
        else{
          System.out.println("Invalid Input");
          cloneCall(A,B);
-       }
-
-
-
-    
+       }   
   }
 
   public static void toStringCall(Matrix A, Matrix B){
@@ -104,10 +88,7 @@ if(Matrix.equalDim(A, B)==false){
        else{
          System.out.println("Invalid Input");
          toStringCall(A, B);
-       }
-
-
-    
+       }    
   }
 public static void rerun(Matrix A,Matrix B){
   Scanner in = new Scanner(System.in);
@@ -124,12 +105,8 @@ System.out.println("Do you want to work on other Operations?: Y/N");
    System.out.println("Invalid Input");
    rerun(A, B);
  } 
-
   
 }
-
-
-
 
   // add, sub,dot,hadammard,clone,equals,toString
 
@@ -180,29 +157,8 @@ System.out.println("Do you want to work on other Operations?: Y/N");
         System.out.println("Invalid Input");
         Operations(A, B);
         
-        }
-        
-        
-        
-
-
-
-
-      
-    }
-
-
-
-
-    
-
-    
-  
-  
-
-
-
-  
+        }    
+    } 
 
   public static void main(String[] args) {
     System.out.print("Hello \n");
@@ -213,18 +169,6 @@ System.out.println("Do you want to work on other Operations?: Y/N");
     verifydim(A, B);
     Operations(A, B);
     rerun(A,B);
-
-    
-   
-    
-    
-    
-
-
-
-
-
-
     
   }
 }
